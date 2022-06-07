@@ -38,6 +38,7 @@ main {
     background-color: rgb(192, 191, 189);
     padding: 20px;
     height: 78vh;
+    max-width: 1200px;
 }
 h1 {
     font-family: sans-serif;
