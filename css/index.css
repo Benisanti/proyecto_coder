@@ -1,22 +1,22 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
+} */
+/* body{
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
     background-color: rgb(192, 191, 189);
-}
-header{
+} */
+/* header{
     list-style: none;
     font-family: monospace;
     background-color: rgb(0, 0, 0);
     color: #80b548;
     padding: 20px;
     justify-content: space-around;
-}
+} 
 header nav ul {
     width: 100%;
     justify-content: space-around;
@@ -33,11 +33,11 @@ header nav ul li a {
     font-size: 15px;
     font-weight: bold;
     justify-content: space-around;
-}
-main {
+} */
+/* main {
     background-color: rgb(192, 191, 189);
     padding: 20px;
-    height: 78vh;
+    height: 100%;
     max-width: 1200px;
 }
 h1 {
@@ -69,26 +69,27 @@ h2 {
     justify-content: space-evenly;
 }
 img {
-    width: 250px;
-    height: 250px;
+    width: 900px;
+    height: 500px;
 }
 
 form {
     display: flex;
     flex-direction: column;
     max-width: 600px;
-}
+} */
 
-footer {
+/* footer {
     background-color: rgb(0, 0, 0);
     font-size: small;
+    color: aliceblue;
     border-top: 2px;
     border-top-style: ridge;
     border-color: #597e32;
     margin-top: 0px;
     align-items: center;
     justify-content: space-around;
-}
+} */
 @media screen and (max-width: 480px )) {
     footer{
         flex-direction: column;

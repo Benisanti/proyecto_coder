@@ -1,0 +1,25 @@
+header{
+    list-style: none;
+    font-family: monospace;
+    background-color: rgb(0, 0, 0);
+    color: #80b548;
+    padding: 20px;
+    justify-content: space-around;
+} 
+header nav ul {
+    width: 100%;
+    justify-content: space-around;
+}
+header nav ul li {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    justify-content: space-around;
+}
+header nav ul li a {
+    text-decoration: solid;
+    color: #80b548;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: space-around;
+}
