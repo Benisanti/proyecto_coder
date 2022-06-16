@@ -35,8 +35,9 @@ h2 {
 }
 .photos {
     width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+    @include flex(column, flex-start, flex-start, space-evenly)
+   /* display: flex;
+    justify-content: space-evenly;*/
 }
 img {
     width: 900px;
